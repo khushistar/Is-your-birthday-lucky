@@ -15,11 +15,15 @@ function calculate() {
 
 function checkLuckyBirthday() {
   let sum = calculate();
-  let luckynum = luckyNumber.value 
-  if(sum % luckynum === 0){
-    massage.innerText = `${luckynum} is that Lucky!! 🥳 🎉`
-  }else{
-    massage.innerText = `${luckynum} is not that Lucky!! 😔`
+  let luckynum = luckyNumber.value;
+  if (sum && luckynum) {
+    if (sum % luckynum === 0) {
+      massage.innerText = `${luckynum} is that Lucky!! 🥳 🎉`;
+    } else {
+      massage.innerText = `${luckynum} is not that Lucky!! 😔`;
+    }
+  } else {
+    massage.innerText = "Please enter both fields";
   }
 }
 
