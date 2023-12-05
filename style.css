@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Charm&family=Cinzel&family=Cormorant+Unicase&family=Dancing+Script&family=Ephesis&family=Great+Vibes&family=Kalam&family=Lora&family=Mate+SC&family=Petit+Formal+Script&family=Poppins:wght@300;400;500;600;700&family=Quicksand&family=Raleway&family=Roboto:wght@300&family=Space+Grotesk:wght@300&family=Ysabeau+SC:wght@100;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(45, 45, 133);
+    color: #fff;
+    font-family: 'Prompt', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 6rem auto 0.5rem;
+}
+
+.container{
+    padding: 2rem;
+    width: 290px;
+    margin: auto;
+}
+
+label{
+    font-size: 1.5rem;
+    display: block;
+}
+
+input{
+    padding: 0.5rem 1rem;
+    width: 100%;
+    margin: 1rem 0rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.1rem;
+}
+
+button{
+    display: block;
+    padding: 0.8rem 2rem;
+    margin: 1rem auto 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #fff;
+    font-weight: 600;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright{
+    font-size: 1.5rem;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    list-style-type: none;
+}
+
+.link i{
+    font-size: 2.5rem;
+    margin: 1rem;
+    color: #fff;
+}
